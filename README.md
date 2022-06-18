@@ -30,7 +30,7 @@ cookiecutter https://github.com/khuyentran1401/data-science-template
 
 ```bash
 .
-├── artifacts                       # supporting document for your project
+├── artifacts                       # Intermediate products
 ├── config
 │   ├── main.yaml                   # Main configuration file
 │   ├── model                       # Configurations for training model
@@ -52,7 +52,7 @@ cookiecutter https://github.com/khuyentran1401/data-science-template
 │   └── docker                      # docker file
 ├── docs                            # documentation for your project
 ├── logs                            # log files
-├── dvc.yaml                        # DVC pipeline
+├── dvc.yaml                        # Stages/pipeline - dvc reproduce command will refer to `dvc.yaml` and creates a pipeline
 ├── .flake8                         # configuration for flake8 - a Python formatter tool
 ├── .gitignore                      # ignore files that cannot commit to Git
 ├── Makefile                        # store useful commands to set up the environment
@@ -76,7 +76,7 @@ cookiecutter https://github.com/khuyentran1401/data-science-template
 ├── LICENCE                         # LICENCE details of the project
 ├── init_setup.sh                   # script to initiate the project
 ├── setup.cfg                       # configuration file for setuptools. much of this configuration may be able to move to pyproject.toml. (optional)
-└── setup.py                        # build script for setuptools. It tells setuptools about your package (such as the name and version) as well as which code files to include (optional).
+└── setup.py                        # build script for setuptools. It tells setuptools about your package (such as the name and version) as well as which code files to include (optional) - converts src as module.
 ```
 
 **Note:** Refer packaging details [here](https://packaging.python.org/en/latest/tutorials/packaging-projects/)

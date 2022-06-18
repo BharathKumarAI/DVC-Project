@@ -6,6 +6,7 @@ install:
 	poetry install
 	poetry run pre-commit install
 	git rm -r --cached 'data/raw'
+	git rm -r --cached 'data/cleaned'
 	git rm -r --cached 'data/processed'
 	git rm -r --cached 'data/final'
 	git rm -r --cached 'models'

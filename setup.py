@@ -3,15 +3,15 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-PROJECT_NAME = "PROJECT_NAME_HERE"
-USER_NAME = "c17hawke"
+PROJECT_NAME = "DVC-Project"
+USER_NAME = "BharathKumarAI"
 
 setuptools.setup(
-    name=f"example-pkg-{USER_NAME}",
+    name=f"dvc-project-{USER_NAME}",
     version="0.0.1",
     author=USER_NAME,
-    author_email="author@example.com",
-    description="A small example package",
+    author_email="bharath.aiexp@gmail.com",
+    description="Testing the dvc components in a project",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{USER_NAME}/{PROJECT_NAME}",

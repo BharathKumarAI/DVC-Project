@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "python_project_template"
+name = "DVC-Project"
 version = "0.1.0"
-description = "Template for python projects"
-authors = ["Bharath Kumar"]
+description = "Project to test DVC components in a project"
+authors = ["BharathKumarAI"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
